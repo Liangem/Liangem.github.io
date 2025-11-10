@@ -20,16 +20,17 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="初次尝试了怎样写出第一篇博客需要在博客文件夹使用命令 然后会在gui上打出生成的.md文件，对.md文件进行编辑即可，需要按照某种固定格式制作完后可以使用以下命令更新网页 不知道为什么一些英文不能输进来，会使页面变成一片空白，明天再说">
+  <meta name="description" content="初次尝试了怎样写出第一篇博客需要在博客文件夹使用命令 然后会在gui上打出生成的.md文件，对.md文件进行编辑即可，需要按照某种固定格式制作完后可以使用以下命令更新网页 不知道为什么一些英文不能输进来，会使页面变成一片空白，明天再说 尝试使用 MarkDown 语法完善前一页内容更新网页用的命令hexo cleanhexo ghexo d 生成新的博客需要的命令hexo new title #t">
 <meta property="og:type" content="article">
 <meta property="og:title" content="first_test">
 <meta property="og:url" content="http://example.com/2023/05/08/first-test/index.html">
 <meta property="og:site_name" content="梁剑波的博客">
-<meta property="og:description" content="初次尝试了怎样写出第一篇博客需要在博客文件夹使用命令 然后会在gui上打出生成的.md文件，对.md文件进行编辑即可，需要按照某种固定格式制作完后可以使用以下命令更新网页 不知道为什么一些英文不能输进来，会使页面变成一片空白，明天再说">
+<meta property="og:description" content="初次尝试了怎样写出第一篇博客需要在博客文件夹使用命令 然后会在gui上打出生成的.md文件，对.md文件进行编辑即可，需要按照某种固定格式制作完后可以使用以下命令更新网页 不知道为什么一些英文不能输进来，会使页面变成一片空白，明天再说 尝试使用 MarkDown 语法完善前一页内容更新网页用的命令hexo cleanhexo ghexo d 生成新的博客需要的命令hexo new title #t">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-05-08T15:15:16.000Z">
-<meta property="article:modified_time" content="2023-05-08T16:18:39.161Z">
+<meta property="article:modified_time" content="2025-11-10T11:10:49.618Z">
 <meta property="article:author" content="Liang">
+<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://example.com/2023/05/08/first-test/">
@@ -195,7 +196,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-05-09 00:18:39" itemprop="dateModified" datetime="2023-05-09T00:18:39+08:00">2023-05-09</time>
+                <time title="修改时间：2025-11-10 19:10:49" itemprop="dateModified" datetime="2025-11-10T19:10:49+08:00">2025-11-10</time>
               </span>
 
           
@@ -212,6 +213,10 @@
         <p>初次尝试了怎样写出第一篇博客<br>需要在博客文件夹使用命令</p>
 <p>然后会在gui上打出生成的.md文件，对.md文件进行编辑即可，需要按照某种固定格式<br>制作完后可以使用以下命令更新网页</p>
 <p>不知道为什么一些英文不能输进来，会使页面变成一片空白，明天再说</p>
+<p>尝试使用 <a target="_blank" rel="noopener" href="https://markdown.com.cn/basic-syntax/htmls.html">MarkDown</a> 语法完善前一页内容<br>更新网页用的命令<br><code>hexo clean</code><br><code>hexo g</code><br><code>hexo d</code></p>
+<p>生成新的博客需要的命令<br><code>hexo new title #title换成博客标题</code></p>
+<p>相关链接<br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/492115006">hexo入门教程</a></p>
+<p>尝试了标签的使用<br>需要打开_config.yml的menu下的tags<br>然后在创建的博客文件即.md文件中添加tag即可<br>注意使用“-”符号(markdown的列表语法)隔离多个的tag，不然会识别成一个</p>
 
     </div>
 
@@ -220,6 +225,9 @@
     
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/hexo/" rel="tag"># hexo</a>
+          </div>
 
         
 
@@ -231,8 +239,8 @@
       <i class="fa fa-chevron-left"></i> HELLO！
     </a></div>
       <div class="post-nav-item">
-    <a href="/2023/05/09/%E7%AC%AC%E4%B8%89%E5%A4%A9/" rel="next" title="第三天">
-      第三天 <i class="fa fa-chevron-right"></i>
+    <a href="/2025/11/10/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/" rel="next" title="我的世界服务器搭建">
+      我的世界服务器搭建 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -307,14 +315,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -346,7 +354,7 @@
 <div class="copyright">
   
   &copy; Sun May 07 2023 08:00:00 GMT+0800 (中国标准时间) – 
-  <span itemprop="copyrightYear">2023</span>
+  <span itemprop="copyrightYear">2025</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
